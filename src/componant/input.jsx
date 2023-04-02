@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Placeholder } from "react-bootstrap";
 
 class InputComponent extends Component {
   state = {};

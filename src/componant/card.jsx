@@ -8,7 +8,6 @@ class CardComponant extends Component {
         <div
           style={{
             borderRadius: "5px",
-            backgroundColor: "gray",
             width: "240px",
             marginBottom: "50px",
             backgroundColor: "#6c757d",

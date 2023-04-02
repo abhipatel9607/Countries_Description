@@ -22,7 +22,7 @@ class CountryDetail extends Component {
     if (this.state.country.currencies) {
       this.state.country.currencies.map((obj) => {
         // str = str.concat(obj.name + ", ");
-        str = str + obj.name + ", ";
+        return (str = str + obj.name + ", ");
       });
     }
     return str;
@@ -31,7 +31,7 @@ class CountryDetail extends Component {
     let str = "";
     if (this.state.country.languages) {
       this.state.country.languages.map((obj) => {
-        str = str.concat(obj.name + ", ");
+        return (str = str.concat(obj.name + ", "));
       });
     }
     return str;
