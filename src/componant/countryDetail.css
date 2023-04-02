@@ -1,0 +1,20 @@
+body {
+  background-color: #495057;
+  color: white;
+}
+
+.details-subhead {
+  display: block;
+  margin-bottom: 1vh;
+}
+
+.data {
+  color: rgb(207, 207, 207);
+}
+.border-name {
+  padding: 1vh 4vh;
+  margin-left: 0.7vw;
+  background-color: #6c757d;
+  color: rgb(207, 207, 207);
+  font-size: smaller;
+}
